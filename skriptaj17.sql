@@ -1,5 +1,9 @@
+# sipavanje
+# c:\xampp\mysql\bin\mysql.exe -uedunova -pedunova --default_character_set=utf8 < d:\$PUTANJA\skriptaj17.sql
+
+
 drop database if exists edunovaj17;
-create database edunovaj17;
+create database edunovaj17 character set utf8;
 
 use edunovaj17;
 
